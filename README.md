@@ -1,10 +1,35 @@
 # basedatosII
 El proyecto contiene un script de la base de datos de un giro de negocio de ventas.   Los movimientos registrados deben de ser sobre productos de computadoras
 
-# Alumnos
+## Grupos
+
+### 1. Salidas
+
+  1.Eduardo Barrios
+  2.Gabriel Rodriguez
+  3.Angel Gonzales
+  4.
+  
+### 2. Entradas
+  1.
+  2.
+  3.
+  4.
+  5.
+  
+### 3. Inventarios.
+  1.
+  2.
+  3.
+  4.
+  5.
+  
+
+
+## Alumnos
 Deben aportan en el proyecto por medio de commits, actualizando el script de la base de datos e ingresando como minimo 500,000 registros en las transacciones principales que son movimientos de compras y ventas.
 
-#Tablas de la base de datos y sus atributos
+## Tablas de la base de datos y sus atributos
 A partir del listado de tablas con atributos minimos deben incrementar la estructura de la base de datos.  
 
 1. Productos (id, nombre, descripcion, precio, costos, existencia, idmarca, iddimension, idcolor)
@@ -23,10 +48,10 @@ A partir del listado de tablas con atributos minimos deben incrementar la estruc
 14. Entrada (id,fecha,documento,idproveedor)
 15. Entradadetalle(id,identrada,idproducto,cantidad,precio,costo)
 
-#Reglas de negocio.
+## Reglas de negocio.
 En esta seccion se proporcionan casos de uso sobre la estructura de la base de datos, como por ejemplo el funcionamiento de la clasificacion de clientes.
 
-#Software
+## Software
 Las herramientas utilizadas para hacer los ejercicios son>
 
 1. Sql server 2012 (Sistema Gestos de base de datos)
@@ -39,17 +64,30 @@ Las herramientas utilizadas para hacer los ejercicios son>
 8. Gherkin (requerimientos)
 
 
-#Requerimientos (reportes)
+## Requerimientos (reportes)
 Utilizando Gherkin se describen los requermientos para la extraccion de informacion.  Se debe justificar con datos cuantificables cada respuesta, es decir debe realizar como minimo pruebas con diferente sintaxis sql (SQL,join y TransSQL)
 
-#Contenido tecnico.
+## Contenido tecnico.
 1. Transacciones
 2. Prodecimientos almacenados (sin parametros, con parametros y con TVP)
 3. Try Catch 
 4. Sql y TransSql
-5. Indices.
+5. [Indices Clustered y Non-clustered](http://www.ticout.com/blog/2012/08/29/sql-server-diferencias-entre-clustered-index-y-non-clustered-index/)
 6. Cache
 7. Formatos de resultado (Tabla, Json y xml)
 8. Cursores.
 9. Pruebas unitarias.
-10. Analisis multidimensional
+10. [Analisis multidimensional (cubos olap)](https://www.youtube.com/watch?v=PDqmZY1msZs)
+11. [Mineria de datos](https://www.youtube.com/watch?v=hbiRtv2WxDY)
+  *. Asociacion de patrones
+  *. Clustering
+  *. Arboles de desicion.
+  *. Regresion lineal
+  *. Regresion logistica
+  *. Teorema de Bayes
+  *. Reres neuronales.
+  *. Secuencia de clustering
+  *. Series de tiempo.
+13. [Factores](https://miblogtecnico.wordpress.com/2014/03/18/mineria-de-datos-en-sql-server-2012/)  
+14. [Arboles de desicion](https://www.youtube.com/watch?v=ss1_BehIU1g)
+12. [SQL Server y Amazon](https://www.youtube.com/watch?v=K8gSaS_E4JM)
